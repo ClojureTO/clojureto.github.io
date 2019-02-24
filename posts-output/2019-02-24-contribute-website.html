@@ -2,8 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
     <meta charset="utf-8"/>
-    <title>ClojureTO: Posts Tagged &quot;cryogen&quot;</title>
-    <link rel="canonical" href="http://clojureto.github.io/tags-output/cryogen">
+    <title>ClojureTO: How To Contribute to ClojureTO Website</title>
+    <link rel="canonical" href="http://clojureto.github.io/posts-output/2019-02-24-contribute-website">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="//fonts.googleapis.com/css?family=Raleway|Alegreya:400italic,700italic,400,700" rel="stylesheet"
           type="text/css">
@@ -51,21 +51,58 @@
         <div class="col-lg-9">
             <div id="content">
                 
-<div id="posts-by-tag">
-    <div id="page-header">
-        <h2>Posts Tagged &quot;cryogen&quot;</h2>
+<div id="post">
+    <div class="post-header">
+    <div id="post-meta" class="row">
+        <div class="col-lg-6">February 24, 2019</div>
+        
+        <span class="col-lg-6 right">By: Hildeberto Mendonca</span>
+        
     </div>
-    <ul>
+    <h2>How To Contribute to ClojureTO Website</h2>
+</div>
+<div>
     
-        <li>
-            <a href="/posts-output/2019-02-24-contribute-website">How To Contribute to ClojureTO Website</a>
-        </li>
+    <p>You will need <a href='https://github.com/technomancy/leiningen'>Leiningen</a> 2.5.0 or above installed.</p><p>The web server can be started from the <code>my-blog</code> directory using the <code>lein-ring</code> plugin:</p><pre><code>lein ring server
+</code></pre><p>The server will watch for changes in the <code>resources/templates</code> folder and recompile the content automatically.</p><p>Cryogen uses <a href='https://github.com/yogthos/Selmer'>Selmer</a> templating engine for layouts. Please refer to its documentation to see the supported tags and filters for the layouts.</p><p>The layouts are contained in the <code>resources/templates/themes/{theme}/html</code> folder of the project. By default, the <code>base.html</code> layout is used to provide the general layout for the site. This is where you would add static resources such as CSS and JavaScript assets as well as define headers and footers for your site.</p><p>Each page layout should have a name that matches the <code>:layout</code> key in the page metadata and end with <code>.html</code>. Page layouts extend the base layout and should only contain the content relevant to the page inside the <code>content</code> block. For example, the <code>tag</code> layout is located in <code>tag.html</code> and looks as follows:</p><pre><code class="xml">{% extends &quot;templates/html/layouts/base.html&quot; %}
+{% block content %}
+&lt;div id=&quot;posts-by-tag&quot;&gt;
+    &lt;h2&gt;Posts tagged {{name}}&lt;/h2&gt;
+    &lt;ul&gt;
+    {% for post in posts %}
+        &lt;li&gt;
+            &lt;a href=&quot;{{post.uri}}&quot;&gt;{{post.title}}&lt;/a&gt;
+        &lt;/li&gt;
+    {% endfor %}
+    &lt;/ul&gt;
+&lt;/div&gt;
+{% endblock %}
+</code></pre><p>Cryogen uses <a href='https://highlightjs.org/'>Highlight.js</a> for code syntax highlighting. You can add more languages by replacing <code>templates/js/highlight.pack.js</code> with a customized package from <a href='https://highlightjs.org/download/'>here</a>.</p><p>The <code>initHighlightingOnLoad</code> function is called in <code>{theme}/html/base.html</code>.</p><pre><code class="xml">&lt;script&gt;hljs.initHighlightingOnLoad&#40;&#41;;&lt;/script&gt;
+</code></pre><p>The generated static content will be found under the <code>resources/public</code> folder. Simply copy the content to a static folder for a server such as Nginx or Apache and your site is now ready for service.</p>
+</div>
+
+<div id="post-tags">
+    <b>Tags: </b>
     
-        <li>
-            <a href="/posts-output/2019-02-23-website-born">How This Website Was Born</a>
-        </li>
+    <a href="/tags-output/cryogen">cryogen</a>
     
-    </ul>
+    <a href="/tags-output/website">website</a>
+    
+    <a href="/tags-output/blog">blog</a>
+    
+</div>
+
+
+    <div id="prev-next">
+        
+        
+        <a class="right" href="/posts-output/2019-02-23-website-born">How This Website Was Born &raquo;</a>
+        
+    </div>
+
+    
+
+
 </div>
 
             </div>

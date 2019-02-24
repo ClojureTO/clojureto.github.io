@@ -2,34 +2,26 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
 <url>
 <loc>
-http://clojureto.github.ioposts-output/2014-11-04-second-post.html
+http://clojureto.github.ioposts-output/2019-02-24-contribute-website.html
 </loc>
 <lastmod>
-2019-02-23
+2019-02-24
 </lastmod>
 </url>
 <url>
 <loc>
-http://clojureto.github.ioposts-output/2016-01-07-docs.html
+http://clojureto.github.ioposts-output/2019-02-23-website-born.html
 </loc>
 <lastmod>
-2019-02-23
+2019-02-24
 </lastmod>
 </url>
 <url>
 <loc>
-http://clojureto.github.ioposts-output/2014-03-10-first-post.html
+http://clojureto.github.ioauthors-output/Hildeberto Mendonca.html
 </loc>
 <lastmod>
-2019-02-23
-</lastmod>
-</url>
-<url>
-<loc>
-http://clojureto.github.ioauthors-output/The Incredible Toronto Clojure Community.html
-</loc>
-<lastmod>
-2019-02-23
+2019-02-24
 </lastmod>
 </url>
 <url>
@@ -37,7 +29,7 @@ http://clojureto.github.ioauthors-output/The Incredible Toronto Clojure Communit
 http://clojureto.github.ioarchives.html
 </loc>
 <lastmod>
-2019-02-23
+2019-02-24
 </lastmod>
 </url>
 <url>
@@ -45,7 +37,7 @@ http://clojureto.github.ioarchives.html
 http://clojureto.github.ioindex.html
 </loc>
 <lastmod>
-2019-02-23
+2019-02-24
 </lastmod>
 </url>
 <url>
@@ -53,7 +45,7 @@ http://clojureto.github.ioindex.html
 http://clojureto.github.iotags.html
 </loc>
 <lastmod>
-2019-02-23
+2019-02-24
 </lastmod>
 </url>
 <url>
@@ -61,31 +53,31 @@ http://clojureto.github.iotags.html
 http://clojureto.github.iotags-output/cryogen.html
 </loc>
 <lastmod>
-2019-02-23
+2019-02-24
 </lastmod>
 </url>
 <url>
 <loc>
-http://clojureto.github.iotags-output/very fetch.html
+http://clojureto.github.iotags-output/blog.html
 </loc>
 <lastmod>
-2019-02-23
+2019-02-24
 </lastmod>
 </url>
 <url>
 <loc>
-http://clojureto.github.iotags-output/not fetch.html
+http://clojureto.github.iotags-output/website.html
 </loc>
 <lastmod>
-2019-02-23
+2019-02-24
 </lastmod>
 </url>
 <url>
 <loc>
-http://clojureto.github.iopages-output/another-page.html
+http://clojureto.github.iopages-output/companies.html
 </loc>
 <lastmod>
-2019-02-23
+2019-02-24
 </lastmod>
 </url>
 <url>
@@ -93,7 +85,7 @@ http://clojureto.github.iopages-output/another-page.html
 http://clojureto.github.iopages-output/about.html
 </loc>
 <lastmod>
-2019-02-23
+2019-02-24
 </lastmod>
 </url>
 <url>
@@ -101,7 +93,7 @@ http://clojureto.github.iopages-output/about.html
 http://clojureto.github.io404.html
 </loc>
 <lastmod>
-2019-02-23
+2019-02-24
 </lastmod>
 </url>
 </urlset>
