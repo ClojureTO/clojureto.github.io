@@ -12,11 +12,28 @@ http://clojureto.github.io
 Website of the Clojure Community Living and Working in Toronto, Ontario, Canada.
 </description>
 <lastBuildDate>
-Sun, 24 Feb 2019 22:57:24 -0500
+Mon, 25 Feb 2019 22:10:45 -0500
 </lastBuildDate>
 <generator>
 clj-rss
 </generator>
+<item>
+<guid>
+http://clojureto.github.io/posts-output/2019-02-23-how-to-contribute
+</guid>
+<link>
+http://clojureto.github.io/posts-output/2019-02-23-how-to-contribute
+</link>
+<title>
+How to Contribute to clojureto.github.io
+</title>
+<description>
+&lt;p&gt;The wind is&lt;/p&gt;
+</description>
+<pubDate>
+Sat, 23 Feb 2019 00:00:00 -0500
+</pubDate>
+</item>
 <item>
 <guid>
 http://clojureto.github.io/posts-output/2019-02-23-website-behind

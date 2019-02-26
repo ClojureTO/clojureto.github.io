@@ -2,10 +2,18 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
 <url>
 <loc>
+http://clojureto.github.ioposts-output/2019-02-23-how-to-contribute.html
+</loc>
+<lastmod>
+2019-02-25
+</lastmod>
+</url>
+<url>
+<loc>
 http://clojureto.github.ioposts-output/2019-02-23-website-behind.html
 </loc>
 <lastmod>
-2019-02-24
+2019-02-25
 </lastmod>
 </url>
 <url>
@@ -13,7 +21,7 @@ http://clojureto.github.ioposts-output/2019-02-23-website-behind.html
 http://clojureto.github.ioauthors-output/Hildeberto Mendonca.html
 </loc>
 <lastmod>
-2019-02-24
+2019-02-25
 </lastmod>
 </url>
 <url>
@@ -21,7 +29,7 @@ http://clojureto.github.ioauthors-output/Hildeberto Mendonca.html
 http://clojureto.github.ioarchives.html
 </loc>
 <lastmod>
-2019-02-24
+2019-02-25
 </lastmod>
 </url>
 <url>
@@ -29,7 +37,7 @@ http://clojureto.github.ioarchives.html
 http://clojureto.github.ioindex.html
 </loc>
 <lastmod>
-2019-02-24
+2019-02-25
 </lastmod>
 </url>
 <url>
@@ -37,7 +45,7 @@ http://clojureto.github.ioindex.html
 http://clojureto.github.iotags.html
 </loc>
 <lastmod>
-2019-02-24
+2019-02-25
 </lastmod>
 </url>
 <url>
@@ -45,7 +53,7 @@ http://clojureto.github.iotags.html
 http://clojureto.github.iotags-output/cryogen.html
 </loc>
 <lastmod>
-2019-02-24
+2019-02-25
 </lastmod>
 </url>
 <url>
@@ -53,7 +61,7 @@ http://clojureto.github.iotags-output/cryogen.html
 http://clojureto.github.iotags-output/website.html
 </loc>
 <lastmod>
-2019-02-24
+2019-02-25
 </lastmod>
 </url>
 <url>
@@ -61,7 +69,7 @@ http://clojureto.github.iotags-output/website.html
 http://clojureto.github.iopages-output/about.html
 </loc>
 <lastmod>
-2019-02-24
+2019-02-25
 </lastmod>
 </url>
 <url>
@@ -69,7 +77,7 @@ http://clojureto.github.iopages-output/about.html
 http://clojureto.github.io404.html
 </loc>
 <lastmod>
-2019-02-24
+2019-02-25
 </lastmod>
 </url>
 </urlset>
