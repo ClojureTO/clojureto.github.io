@@ -9,20 +9,61 @@ ClojureTO
 http://clojureto.github.io
 </link>
 <description>
-Website of the Clojure Community Living and Working in Toronto, Ontario, Canada.
+Website of the Clojure Community Living or Working in Toronto, Ontario, Canada.
 </description>
 <lastBuildDate>
-Mon, 25 Feb 2019 22:21:15 -0500
+Wed, 06 Mar 2019 22:03:37 -0500
 </lastBuildDate>
 <generator>
 clj-rss
 </generator>
 <item>
 <guid>
-http://clojureto.github.io/posts-output/2019-02-23-website-behind
+http://clojureto.github.io/posts/2019-03-05-website-contributing
 </guid>
 <link>
-http://clojureto.github.io/posts-output/2019-02-23-website-behind
+http://clojureto.github.io/posts/2019-03-05-website-contributing
+</link>
+<title>
+How to Contribute to ClojureTO Website
+</title>
+<description>
+&lt;p&gt;The wind is blowing at 85km/h outside, followed by rain and snow with low visibility. I couldn't find anything more interesting to do other than contributing to ClojureTO website. The goal today is to write a recursive article that explains how to contribute to this website by publishing itself.&lt;/p&gt;&lt;h3 id=&quot;pre-requisites&quot;&gt;Pre-requisites&lt;/h3&gt;&lt;p&gt;That's what I need to be able to contribute:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;strong&gt;Git&lt;/strong&gt;: as a technical person, I have the habit of versioning the work I do. Git is the tool I use for that. This is also the tool needed to manage and publish the website.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;: ClojureTO uses GitHub Pages as a hosting service. In short, when we push content to a repository it gets published on the website. To synchronize content with GitHub I need a GitHub account and Git.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Leiningen&lt;/strong&gt;: this is the portal to enter in the Clojure World. A Swiss knife to manage Clojure projects. I use it to tests the changes I make in the website. I was also used it to create the website in the first place.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Cryogen&lt;/strong&gt;: this tool, in combination with Leiningen, built this entire website. We explained how we did it in a &lt;a href='https://clojureto.github.io/posts-output/2019-02-23-website-behind'&gt;previews article&lt;/a&gt;. Now, I need it to produce the content, define the layout, the style, and the navigation.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Passion for Clojure&lt;/strong&gt;: to write such long and rich content, a good deal of time and knowledge is required. My passion for Clojure motivates me to do it.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Community Driven&lt;/strong&gt;: a genuine intention to share knowledge and help others is also required.&lt;/li&gt;&lt;/ol&gt;&lt;h3 id=&quot;forking&amp;#95;the&amp;#95;repository&quot;&gt;Forking The Repository&lt;/h3&gt;&lt;p&gt;Not everybody is a good friend of a ClojureTO's co-organizer to claim push privileges. So, I need to start by forking &lt;a href='https://github.com/ClojureTO/clojureto-website'&gt;clojureto-website&lt;/a&gt;. I click on the &lt;strong&gt;Fork&lt;/strong&gt; button and get a new repository in my account. My contributions will remain there until it's time for a pull request.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/fork-clojureto-website.png&quot; alt=&quot;Forking clojureto-website repository&quot; /&gt;&lt;/p&gt;&lt;p&gt;I clone the repository locally so I can start contributing:&lt;/p&gt;&lt;pre&gt;&lt;code&gt;$ git clone https://github.com/htmfilho/clojureto-website.git&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;cryogen&amp;#95;basics&quot;&gt;Cryogen Basics&lt;/h3&gt;&lt;p&gt;Understanding Cryogen is discovering ways of contributing. Its &lt;a href='http://cryogenweb.org'&gt;website&lt;/a&gt; covers all details. In summary, those with design skills could jump into &lt;code&gt;resources/templates/themes&lt;/code&gt; and redefine how the content is presented, improve navigation, readability, harmonize colors, shapes. I personally have no talent there, so I care more about content, which is located at &lt;code&gt;resources/templates/md&lt;/code&gt;. The one place that should not be touched at all is the folder &lt;code&gt;resources/public&lt;/code&gt;. Those files are replaced whenever the files in the previously mentioned folders are modified and saved.&lt;/p&gt;&lt;h3 id=&quot;writing&amp;#95;the&amp;#95;contribution&quot;&gt;Writing the Contribution&lt;/h3&gt;&lt;p&gt;I wish I could write the content in Clojure, but that's not practical. So, I stick to &lt;a href='https://daringfireball.net/projects/markdown/'&gt;Markdown&lt;/a&gt;, a format supported by Cryogen. Markdown eliminates the pain of writing content in HTML by offering a minimalist markup language for web authoring. All the content in Markdown, including this article, is located at &lt;code&gt;resources/templates/md&lt;/code&gt;. I can write &lt;strong&gt;pages&lt;/strong&gt;, which are more institutional, and &lt;strong&gt;posts&lt;/strong&gt;, which represent facts, perspectives, experiences, and discoveries.&lt;/p&gt;&lt;p&gt;Apart from Markdown, there is a caveat. At the top of a page or post, there is a Clojure-like map where we define values expected by the theme. For a page, there is something like this:&lt;/p&gt;&lt;pre&gt;&lt;code&gt;{:title &amp;quot;About&amp;quot;
+ :layout :page
+ :page-index 0
+ :navbar? true}&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I would emphasize &lt;code&gt;:page-index&lt;/code&gt;, which defines the order the page appears in the navigation, and &lt;code&gt;:navbar?&lt;/code&gt; to include the page in the top menu. For this post in particular, I used this:&lt;/p&gt;&lt;pre&gt;&lt;code&gt;{:title &amp;quot;How to Contribute to ClojureTO Website&amp;quot;
+ :author &amp;quot;Hildeberto Mendonca&amp;quot;
+ :layout :post
+ :tags  &amp;#91;&amp;quot;Cryogen&amp;quot; &amp;quot;Website&amp;quot; &amp;quot;Github&amp;quot; &amp;quot;Markdown&amp;quot;&amp;#93;
+ :toc true}&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;A special attention to &lt;code&gt;:tags&lt;/code&gt;, which helps to organize the content, and &lt;code&gt;:toc&lt;/code&gt; to show a table of content to help navigating in a long post.&lt;/p&gt;&lt;h3 id=&quot;previewing&amp;#95;the&amp;#95;content&quot;&gt;Previewing the Content&lt;/h3&gt;&lt;p&gt;To preview the content exactly as it will appear on the website, I go to the root of the repository and run the following command:&lt;/p&gt;&lt;pre&gt;&lt;code&gt;$ lein ring server&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;After a few seconds, the default browser opens and shows the website. Since this article is the most recent one, it appears in the front page, as shown in the image below:&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/preview-content-website.png&quot; alt=&quot;Forking clojureto-website repository&quot; /&gt;&lt;/p&gt;&lt;p&gt;Every time I save the file that I'm working on, the website is regenerated and the last changes are ready to see.&lt;/p&gt;&lt;h3 id=&quot;committing&amp;#95;and&amp;#95;pushing&amp;#95;changes&quot;&gt;Committing and Pushing Changes&lt;/h3&gt;&lt;p&gt;At this point in time, the article is finished and ready to submit. I commit all my changes, including text and images, and push to my own fork:&lt;/p&gt;&lt;pre&gt;&lt;code&gt;$ git add resources/templates/md/posts/2019-03-05-website-contributing.md
+$ git add resources/templates/img/fork-clojureto-website.png
+$ git add resources/templates/img/preview-content-website.png
+$ git commit -m &amp;quot;Article 'How to Contribute to ClojureTO Website'&amp;quot;
+$ git push origin master&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Notice that I add each artifact one by one, instead of running a practical command like &lt;code&gt;git add .&lt;/code&gt;. The reason is because I don't want to accidentally mess up with the submodule located at &lt;code&gt;resources/public&lt;/code&gt;. More details latter on.&lt;/p&gt;&lt;h3 id=&quot;creating&amp;#95;a&amp;#95;pull&amp;#95;request&quot;&gt;Creating a Pull Request&lt;/h3&gt;&lt;p&gt;The pull request happens on GitHub. Now that the changes are pushed, my fork is different from the original, and this difference is exactly the content of the pull request I'm creating. I click on the button &quot;New pull request&quot; and it shows me the differences.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/pullrequest-content-website.png&quot; alt=&quot;Pull request from my fork to clojureto-website repository&quot; /&gt;&lt;/p&gt;&lt;p&gt;When I click the green button &quot;Create pull request&quot; I'm actually submitting my changes for review by one of the website's editors. My work is probably not done yet because they may ask me to fix some typos, rephrase some sentences and clarify others. I do extra changes and I just keep pushing to my master branch to have my pull request updated.&lt;/p&gt;&lt;p&gt;When the pull request is accepted and the merge is done, it doesn't mean the content is immediately published on the website. The editor has some work to do as well.&lt;/p&gt;&lt;h3 id=&quot;updating&amp;#95;the&amp;#95;website&amp;#95;with&amp;#95;the&amp;#95;contribution&quot;&gt;Updating the Website with the Contribution&lt;/h3&gt;&lt;p&gt;The editor is the person responsible for accepting the pull request and publishing the contributions in the sequence. This person has special push privileges to the repositories &lt;a href='https://github.com/ClojureTO/clojureto-website'&gt;clojureto-website&lt;/a&gt; and &lt;a href='https://github.com/ClojureTO/clojureto.github.io'&gt;clojureto-github.io&lt;/a&gt;. The pull request is merged and now the editor needs to generate the static content. In the event she never did it before, she starts by cloning the clojureto-website repository:&lt;/p&gt;&lt;pre&gt;&lt;code&gt;$ git clone https://github.com/ClojureTO/clojureto-website.git
+$ cd clojureto-website&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The editor has all recent changes locally and needs to setup the submodule &lt;code&gt;clojureto.github.io&lt;/code&gt; in the folder &lt;code&gt;resources/public&lt;/code&gt;:&lt;/p&gt;&lt;pre&gt;&lt;code&gt;$ git submodule init
+$ git submodule update
+$ git submodule foreach git pull origin master&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Now, the folder &lt;code&gt;resources/public&lt;/code&gt; contains the most recent published content, but it needs to be updated with the most recent one. To do that, the editor needs to launch Cryogen once, so it can regenerate the static website in the folder &lt;code&gt;resource/public&lt;/code&gt;:&lt;/p&gt;&lt;pre&gt;&lt;code&gt;$ lein ring server&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;To stop the server she presses &lt;code&gt;Ctrl+C&lt;/code&gt; and then she notices the content of the folder &lt;code&gt;resource/public&lt;/code&gt; has changed:&lt;/p&gt;&lt;pre&gt;&lt;code&gt;$ cd resources/public
+$ git status&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;She needs to move to the master branch, commit all the changes and push to the repository &lt;code&gt;clojureto.github.io&lt;/code&gt;:&lt;/p&gt;&lt;pre&gt;&lt;code&gt;$ git checkout master
+$ git add .
+$ git commit -m &amp;quot;Published article 'How to Contribute to ClojureTO Website'&amp;quot;
+$ git push origin master&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;When the push is completed the latest contributions to the website are published! But the work is not done. There is still a final step, which is updating the submodule of the the repository &lt;code&gt;clojureto-website&lt;/code&gt;:&lt;/p&gt;&lt;pre&gt;&lt;code&gt;$ cd ../..
+$ git add resources/public
+$ git commit -m &amp;quot;Updated submodule reference.&amp;quot;
+$ git push origin master&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;That's enough with this website and Git. Starting next post, everything will be about the Community and Clojure!&lt;/p&gt;
+</description>
+<author>
+Hildeberto Mendonca
+</author>
+<pubDate>
+Tue, 05 Mar 2019 00:00:00 -0500
+</pubDate>
+</item>
+<item>
+<guid>
+http://clojureto.github.io/posts/2019-02-23-website-behind
+</guid>
+<link>
+http://clojureto.github.io/posts/2019-02-23-website-behind
 </link>
 <title>
 What is Behind clojureto.github.io
