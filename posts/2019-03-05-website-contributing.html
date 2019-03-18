@@ -24,7 +24,6 @@
 </head>
 <body>
 
-
 <nav class="navbar navbar-default">
     <div class="container">
         <div class="navbar-header">
@@ -44,6 +43,11 @@
                 
                 <li
                 >
+                <a href="/pages/companies">Companies</a>
+                </li>
+                
+                <li
+                >
                 <a href="/pages/about">About</a>
                 </li>
                 
@@ -53,10 +57,7 @@
     </div><!--/.container-fluid -->
 </nav>
 
-
 <div class="container">
-
-
     <div class="row">
         <div class="col-lg-9">
             <div id="content">
@@ -73,7 +74,7 @@
 </div>
 <div>
     <ol class="content"><li><a href="#pre-requisites">Pre-requisites</a></li><li><a href="#forking_the_repository">Forking The Repository</a></li><li><a href="#cryogen_basics">Cryogen Basics</a></li><li><a href="#writing_the_contribution">Writing the Contribution</a></li><li><a href="#previewing_the_content">Previewing the Content</a></li><li><a href="#committing_and_pushing_changes">Committing and Pushing Changes</a></li><li><a href="#creating_a_pull_request">Creating a Pull Request</a></li><li><a href="#updating_the_website_with_the_contribution">Updating the Website with the Contribution</a></li></ol>
-    <p>The wind is blowing at 85km/h outside, followed by rain and snow with low visibility. I couldn't find anything more interesting to do other than contributing to ClojureTO website. The goal today is to write a recursive article that explains how to contribute to this website by publishing itself.</p><h3 id="pre-requisites">Pre-requisites</h3><p>That's what I need to be able to contribute:</p><ol><li><strong>Git</strong>: as a technical person, I have the habit of versioning the work I do. Git is the tool I use for that. This is also the tool needed to manage and publish the website.</li><li><strong>GitHub</strong>: ClojureTO uses GitHub Pages as a hosting service. In short, when we push content to a repository it gets published on the website. To synchronize content with GitHub I need a GitHub account and Git.</li><li><strong>Leiningen</strong>: this is the portal to enter in the Clojure World. A Swiss knife to manage Clojure projects. I use it to tests the changes I make in the website. I was also used it to create the website in the first place.</li><li><strong>Cryogen</strong>: this tool, in combination with Leiningen, built this entire website. We explained how we did it in a <a href='https://clojureto.github.io/posts-output/2019-02-23-website-behind'>previews article</a>. Now, I need it to produce the content, define the layout, the style, and the navigation.</li><li><strong>Passion for Clojure</strong>: to write such long and rich content, a good deal of time and knowledge is required. My passion for Clojure motivates me to do it.</li><li><strong>Community Driven</strong>: a genuine intention to share knowledge and help others is also required.</li></ol><h3 id="forking&#95;the&#95;repository">Forking The Repository</h3><p>Not everybody is a good friend of a ClojureTO's co-organizer to claim push privileges. So, I need to start by forking <a href='https://github.com/ClojureTO/clojureto-website'>clojureto-website</a>. I click on the <strong>Fork</strong> button and get a new repository in my account. My contributions will remain there until it's time for a pull request.</p><p><img src="/img/fork-clojureto-website.png" alt="Forking clojureto-website repository" /></p><p>I clone the repository locally so I can start contributing:</p><pre><code>$ git clone https://github.com/htmfilho/clojureto-website.git</code></pre><h3 id="cryogen&#95;basics">Cryogen Basics</h3><p>Understanding Cryogen is discovering ways of contributing. Its <a href='http://cryogenweb.org'>website</a> covers all details. In summary, those with design skills could jump into <code>resources/templates/themes</code> and redefine how the content is presented, improve navigation, readability, harmonize colors, shapes. I personally have no talent there, so I care more about content, which is located at <code>resources/templates/md</code>. The one place that should not be touched at all is the folder <code>resources/public</code>. Those files are replaced whenever the files in the previously mentioned folders are modified and saved.</p><h3 id="writing&#95;the&#95;contribution">Writing the Contribution</h3><p>I wish I could write the content in Clojure, but that's not practical. So, I stick to <a href='https://daringfireball.net/projects/markdown/'>Markdown</a>, a format supported by Cryogen. Markdown eliminates the pain of writing content in HTML by offering a minimalist markup language for web authoring. All the content in Markdown, including this article, is located at <code>resources/templates/md</code>. I can write <strong>pages</strong>, which are more institutional, and <strong>posts</strong>, which represent facts, perspectives, experiences, and discoveries.</p><p>Apart from Markdown, there is a caveat. At the top of a page or post, there is a Clojure-like map where we define values expected by the theme. For a page, there is something like this:</p><pre><code>{:title &quot;About&quot;
+    <p>The wind is blowing at 85km/h outside, followed by rain and snow with low visibility. I couldn't find anything more interesting to do other than contributing to ClojureTO website. The goal today is to write a recursive article that explains how to contribute to this website by publishing itself.</p><h3 id="pre-requisites">Pre-requisites</h3><p>That's what I need to be able to contribute:</p><ol><li><strong>Git</strong>: as a technical person, I have the habit of versioning the work I do. Git is the tool I use for that. This is also the tool needed to manage and publish the website.</li><li><strong>GitHub</strong>: ClojureTO uses GitHub Pages as a hosting service. In short, when we push content to a repository it gets published on the website. To synchronize content with GitHub I need a GitHub account and Git.</li><li><strong>Leiningen</strong>: this is the portal to enter in the Clojure World. A Swiss knife to manage Clojure projects. I use it to tests the changes I make in the website. I was also used it to create the website in the first place.</li><li><strong>Cryogen</strong>: this tool, in combination with Leiningen, built this entire website. We explained how we did it in a <a href='/posts/2019-02-23-website-behind'>previews article</a>. Now, I need it to produce the content, define the layout, the style, and the navigation.</li><li><strong>Passion for Clojure</strong>: to write such long and rich content, a good deal of time and knowledge is required. My passion for Clojure motivates me to do it.</li><li><strong>Community Driven</strong>: a genuine intention to share knowledge and help others is also required.</li></ol><h3 id="forking&#95;the&#95;repository">Forking The Repository</h3><p>Not everybody is a good friend of a ClojureTO's co-organizer to claim push privileges. So, I need to start by forking <a href='https://github.com/ClojureTO/clojureto-website'>clojureto-website</a>. I click on the <strong>Fork</strong> button and get a new repository in my account. My contributions will remain there until it's time for a pull request.</p><p><img src="/img/fork-clojureto-website.png" alt="Forking clojureto-website repository" /></p><p>I clone the repository locally so I can start contributing:</p><pre><code>$ git clone https://github.com/htmfilho/clojureto-website.git</code></pre><h3 id="cryogen&#95;basics">Cryogen Basics</h3><p>Understanding Cryogen is discovering ways of contributing. Its <a href='http://cryogenweb.org'>website</a> covers all details. In summary, those with design skills could jump into <code>resources/templates/themes</code> and redefine how the content is presented, improve navigation, readability, harmonize colors, shapes. I personally have no talent there, so I care more about content, which is located at <code>resources/templates/md</code>. The one place that should not be touched at all is the folder <code>resources/public</code>. Those files are replaced whenever the files in the previously mentioned folders are modified and saved.</p><h3 id="writing&#95;the&#95;contribution">Writing the Contribution</h3><p>I wish I could write the content in Clojure, but that's not practical. So, I stick to <a href='https://daringfireball.net/projects/markdown/'>Markdown</a>, a format supported by Cryogen. Markdown eliminates the pain of writing content in HTML by offering a minimalist markup language for web authoring. All the content in Markdown, including this article, is located at <code>resources/templates/md</code>. I can write <strong>pages</strong>, which are more institutional, and <strong>posts</strong>, which represent facts, perspectives, experiences, and discoveries.</p><p>Apart from Markdown, there is a caveat. At the top of a page or post, there is a Clojure-like map where we define values expected by the theme. For a page, there is something like this:</p><pre><code>{:title &quot;About&quot;
  :layout :page
  :page-index 0
  :navbar? true}</code></pre><p>I would emphasize <code>:page-index</code>, which defines the order the page appears in the navigation, and <code>:navbar?</code> to include the page in the top menu. For this post in particular, I used this:</p><pre><code>{:title &quot;How to Contribute to ClojureTO Website&quot;
@@ -132,22 +133,23 @@ $ git push origin master</code></pre><p>That's enough with this website and Git.
             <div id="sidebar">
                 <h3>Links</h3>
                 <ul id="links">
-                    <li><a href="https://clojure.org">Clojure Website</a></li>
-                    <li><a href="https://github.com/ClojureTO">GitHub Organization</a></li>
-                    <li><a href="https://www.meetup.com/Clojure-Toronto/">Meetup</a></li>
-                    <li><a href="http://clojure-to.herokuapp.com">Slack</a></li>
+                    <li><a href="https://github.com/ClojureTO" target="_blank">GitHub</a></li>
+                    <li><a href="https://www.meetup.com/Clojure-Toronto/" target="_blank">Meetup</a></li>
+                    <li><a href="http://clojure-to.herokuapp.com" target="_blank">Slack</a></li>
+                    <li><a href="https://twitter.com/ClojureTO" target="_blank">Twitter</a></li>
+                    <li><a href="https://clojure.org" target="_blank">Clojure</a></li>
                 </ul>
                 
-                <div id="recent">
-                    <h3>Recent Posts</h3>
-                    <ul>
-                        
-                        <li><a href="/posts/2019-03-05-website-contributing">How to Contribute to ClojureTO Website</a></li>
-                        
-                        <li><a href="/posts/2019-02-23-website-behind">What is Behind clojureto.github.io</a></li>
-                        
-                    </ul>
-                </div>
+                    <div id="recent">
+                        <h3>Recent Posts</h3>
+                        <ul>
+                            
+                            <li><a href="/posts/2019-03-05-website-contributing">How to Contribute to ClojureTO Website</a></li>
+                            
+                            <li><a href="/posts/2019-02-23-website-behind">What is Behind clojureto.github.io</a></li>
+                            
+                        </ul>
+                    </div>
                 
                 
                 <div id="tags">

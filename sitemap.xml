@@ -2,10 +2,18 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
 <url>
 <loc>
+http://clojureto.github.iopages/companies.html
+</loc>
+<lastmod>
+2019-03-17
+</lastmod>
+</url>
+<url>
+<loc>
 http://clojureto.github.iopages/about.html
 </loc>
 <lastmod>
-2019-03-06
+2019-03-17
 </lastmod>
 </url>
 <url>
@@ -13,7 +21,7 @@ http://clojureto.github.iopages/about.html
 http://clojureto.github.ioauthors/Hildeberto Mendonca.html
 </loc>
 <lastmod>
-2019-03-06
+2019-03-17
 </lastmod>
 </url>
 <url>
@@ -21,7 +29,7 @@ http://clojureto.github.ioauthors/Hildeberto Mendonca.html
 http://clojureto.github.ioarchives.html
 </loc>
 <lastmod>
-2019-03-06
+2019-03-17
 </lastmod>
 </url>
 <url>
@@ -29,7 +37,7 @@ http://clojureto.github.ioarchives.html
 http://clojureto.github.ioindex.html
 </loc>
 <lastmod>
-2019-03-06
+2019-03-17
 </lastmod>
 </url>
 <url>
@@ -37,7 +45,7 @@ http://clojureto.github.ioindex.html
 http://clojureto.github.iotags/Markdown.html
 </loc>
 <lastmod>
-2019-03-06
+2019-03-17
 </lastmod>
 </url>
 <url>
@@ -45,7 +53,7 @@ http://clojureto.github.iotags/Markdown.html
 http://clojureto.github.iotags/Git.html
 </loc>
 <lastmod>
-2019-03-06
+2019-03-17
 </lastmod>
 </url>
 <url>
@@ -53,7 +61,7 @@ http://clojureto.github.iotags/Git.html
 http://clojureto.github.iotags/Cryogen.html
 </loc>
 <lastmod>
-2019-03-06
+2019-03-17
 </lastmod>
 </url>
 <url>
@@ -61,7 +69,7 @@ http://clojureto.github.iotags/Cryogen.html
 http://clojureto.github.iotags/Github.html
 </loc>
 <lastmod>
-2019-03-06
+2019-03-17
 </lastmod>
 </url>
 <url>
@@ -69,7 +77,7 @@ http://clojureto.github.iotags/Github.html
 http://clojureto.github.iotags/Website.html
 </loc>
 <lastmod>
-2019-03-06
+2019-03-17
 </lastmod>
 </url>
 <url>
@@ -77,7 +85,7 @@ http://clojureto.github.iotags/Website.html
 http://clojureto.github.ioposts/2019-02-23-website-behind.html
 </loc>
 <lastmod>
-2019-03-06
+2019-03-17
 </lastmod>
 </url>
 <url>
@@ -85,7 +93,7 @@ http://clojureto.github.ioposts/2019-02-23-website-behind.html
 http://clojureto.github.ioposts/2019-03-05-website-contributing.html
 </loc>
 <lastmod>
-2019-03-06
+2019-03-17
 </lastmod>
 </url>
 <url>
@@ -93,7 +101,7 @@ http://clojureto.github.ioposts/2019-03-05-website-contributing.html
 http://clojureto.github.iotags.html
 </loc>
 <lastmod>
-2019-03-06
+2019-03-17
 </lastmod>
 </url>
 <url>
@@ -101,7 +109,7 @@ http://clojureto.github.iotags.html
 http://clojureto.github.io404.html
 </loc>
 <lastmod>
-2019-03-06
+2019-03-17
 </lastmod>
 </url>
 </urlset>
