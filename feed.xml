@@ -12,7 +12,7 @@ http://clojureto.github.io
 Website of the Clojure Community Living or Working in Toronto, Ontario, Canada.
 </description>
 <lastBuildDate>
-Sun, 17 Mar 2019 23:07:54 -0400
+Mon, 18 Mar 2019 05:36:18 +0000
 </lastBuildDate>
 <generator>
 clj-rss
@@ -55,7 +55,7 @@ $ git push origin master&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;That's enough with thi
 Hildeberto Mendonca
 </author>
 <pubDate>
-Tue, 05 Mar 2019 00:00:00 -0500
+Tue, 05 Mar 2019 00:00:00 +0000
 </pubDate>
 </item>
 <item>
@@ -79,7 +79,7 @@ $ git commit -m &amp;quot;Added the website repo as a submodule&amp;quot;&lt;/co
 Hildeberto Mendonca
 </author>
 <pubDate>
-Sat, 23 Feb 2019 00:00:00 -0500
+Sat, 23 Feb 2019 00:00:00 +0000
 </pubDate>
 </item>
 </channel>
