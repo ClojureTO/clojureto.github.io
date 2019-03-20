@@ -12,11 +12,31 @@ http://clojureto.github.io
 Website of the Clojure Community Living or Working in Toronto, Ontario, Canada.
 </description>
 <lastBuildDate>
-Mon, 18 Mar 2019 09:31:41 -0400
+Tue, 19 Mar 2019 22:26:03 -0400
 </lastBuildDate>
 <generator>
 clj-rss
 </generator>
+<item>
+<guid>
+http://clojureto.github.io/posts/2019-03-12-clojure-north
+</guid>
+<link>
+http://clojureto.github.io/posts/2019-03-12-clojure-north
+</link>
+<title>
+Clojure/north - April 19-20th, 2019 Toronto
+</title>
+<description>
+&lt;p&gt;Sometimes I ask myself if I will ever attend a Clojure conference again after they launched &lt;a href='https://www.youtube.com/user/ClojureTV'&gt;ClojureTV&lt;/a&gt; on YouTube. They publish every Clojure talk that happens out there. Why would I expected more than that?&lt;/p&gt;&lt;p&gt;My way of thinking was challenged when I met &lt;strong&gt;Nikola Peric&lt;/strong&gt;, the VP of IT at a company called &lt;a href='http://synqrinus.com'&gt;Synqrinus&lt;/a&gt;. We talked about a conference he is organizing in Toronto for the Clojure community. Nikola is clearly an entrepreneur because when I asked him to tell me about himself he described his company instead - &quot;... we are pushing the boundaries in the market research space with our technology and tools. There, I focus on architecting and leading the development of our secret weapons that give us a competitive advantage in the industry&quot;.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/clojure-north-interview.jpg&quot; alt=&quot;Interviewing Nikola Peric&quot; /&gt;&lt;/p&gt;&lt;p&gt;This Clojure conference he is talking about is called &lt;a href='https://clojurenorth.com'&gt;Clojure/north&lt;/a&gt;. &quot;We liked Clojure/north's play on Clojure/west. After all, we are north of the States&quot;, he noted. The idea is to have a non-profit conference that is accessible and low-cost, organized by volunteers, with a ticket price of just C$180, counting on the extra help of sponsors. Disclosing that price and their engagement was when he got my interest. After all, a lot of tech conferences go for a minimum of C$500!&lt;/p&gt;&lt;p&gt;Nikola is not doing all this alone. The core team consists of &lt;strong&gt;Dmitri Sotnikov&lt;/strong&gt;, &lt;strong&gt;Carmen La&lt;/strong&gt;, &lt;strong&gt;Raey Ang&lt;/strong&gt;, and &lt;strong&gt;Lubov Soltan&lt;/strong&gt;. &quot;Dmitri is reaching out many of our speakers and drumming up interest in the event. Carmen slapped together the entire website in no time at all and helps out with general organization. Raey is the AV producer for the event, bringing in expertise from the film industry to keep it all professional. Lubov designed the minimalist logo, and has helped with other design aspects such as our gorgeous sponsor package&quot;, he detailed and then completed - &quot;I tend to do a lot of the administrative tasks such as managing the Twitter account, venue registration, emails, etc. Dmitri, Carmen, and myself talk through the strategy, and programming for the event. We have a fantastic team!&quot;. I could see in his eyes how important those people are for him. Another level of friendship was born. I was gradually getting the point of going to a conference.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/clojure-north-interview-2.jpg&quot; alt=&quot;Interviewing Nikola Peric&quot; /&gt;&lt;/p&gt;&lt;p&gt;As my interest was growing, I was curious about the talks and what sense I could make of them. &quot;We asked this question to ourselves: 'how do we demonstrate where Clojure is having a huge impact in the real world?' and we expect to get people telling us their stories about Clojure helping them grow, the benefits it reaped, along with the struggles and challenges that came with it. In doing so, we hope that we can encourage broader adoption of the language.&quot;, he said. This is deep. He was basically saying that if you put people with the same passion, experiences, and struggles in the same space they will make such strong connections that it will transcend technology. And here lies the difference between ClojureTV and a conference: the former only offers technology and the conference offers the human side of it, which is infinitely valuable. &quot;The best part, by far, is connecting all these people in one place. I'm thrilled to meet all these big names, and see some fantastic talks so it's kind of a win-win - get to have all of it happen in my back yard, and also allow others to partake in the same experience!&quot;, he concluded.&lt;/p&gt;&lt;p&gt;I'm not saying that Clojure/north won't be available online afterwards. It will. &quot;We'll also be professional recording the talks so hopefully those who are unable to attend will see the talks in a few weeks after the event&quot;, he confirmed and then got surprised by my sudden laugh - as if he was a comedian who connected his final joke with the one he told at the beginning.&lt;/p&gt;&lt;p&gt;&lt;center&gt;&lt;a href=&quot;https://clojurenorth.com&quot; target=&quot;blank&quot;&gt;&lt;img src=&quot;/img/clojure-north-logo.png&quot; alt=&quot;Clojure/north Logo&quot; /&gt;&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;&lt;h3 id=&quot;heads-up&quot;&gt;Heads-up&lt;/h3&gt;&lt;ol&gt;&lt;li&gt;Registrations are open. &lt;a href='https://ti.to/clojure-north/clojure-north-2019'&gt;Register now&lt;/a&gt; and meet me there! I won't appear in the recordings.&lt;/li&gt;&lt;li&gt;Three big open source launches from our speakers will coincide with the event so that will be a big impact!&lt;/li&gt;&lt;li&gt;If anyone is interested in volunteering their time at the event do feel free to reach out at hello@clojurenorth.com, we do need a few volunteers.&lt;/li&gt;&lt;li&gt;If anyone works at a Clojure company we'd appreciate any additional sponsorship to help finance the event. The full sponsor prospectus can be found at [https://clojurenorth.com/clojure-north-2019-sponsorship-package.pdf].&lt;/li&gt;&lt;/ol&gt;
+</description>
+<author>
+Hildeberto Mendonca
+</author>
+<pubDate>
+Tue, 12 Mar 2019 00:00:00 -0400
+</pubDate>
+</item>
 <item>
 <guid>
 http://clojureto.github.io/posts/2019-03-05-website-contributing
