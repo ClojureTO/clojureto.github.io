@@ -12,7 +12,7 @@ http://clojureto.github.io
 Website of the Clojure Community Living or Working in Toronto, Ontario, Canada.
 </description>
 <lastBuildDate>
-Mon, 13 May 2019 21:53:33 -0400
+Tue, 14 May 2019 02:00:38 +0000
 </lastBuildDate>
 <generator>
 clj-rss
@@ -34,7 +34,7 @@ Clojure Books in the Toronto Public Library
 Hildeberto Mendonca
 </author>
 <pubDate>
-Mon, 13 May 2019 00:00:00 -0400
+Mon, 13 May 2019 00:00:00 +0000
 </pubDate>
 </item>
 <item>
@@ -54,7 +54,7 @@ Clojure/north - April 19-20th, 2019 Toronto
 Hildeberto Mendonca
 </author>
 <pubDate>
-Tue, 12 Mar 2019 00:00:00 -0400
+Tue, 12 Mar 2019 00:00:00 +0000
 </pubDate>
 </item>
 <item>
@@ -95,7 +95,7 @@ $ git push origin master&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;That's enough with thi
 Hildeberto Mendonca
 </author>
 <pubDate>
-Tue, 05 Mar 2019 00:00:00 -0500
+Tue, 05 Mar 2019 00:00:00 +0000
 </pubDate>
 </item>
 <item>
@@ -119,7 +119,7 @@ $ git commit -m &amp;quot;Added the website repo as a submodule&amp;quot;&lt;/co
 Hildeberto Mendonca
 </author>
 <pubDate>
-Sat, 23 Feb 2019 00:00:00 -0500
+Sat, 23 Feb 2019 00:00:00 +0000
 </pubDate>
 </item>
 </channel>
