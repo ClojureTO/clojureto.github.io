@@ -12,11 +12,31 @@ http://clojureto.github.io
 Website of the Clojure Community Living or Working in Toronto, Ontario, Canada.
 </description>
 <lastBuildDate>
-Thu, 25 Apr 2019 03:17:35 +0000
+Tue, 14 May 2019 01:46:14 +0000
 </lastBuildDate>
 <generator>
 clj-rss
 </generator>
+<item>
+<guid>
+http://clojureto.github.io/posts/2019-05-13-clojure-books-library
+</guid>
+<link>
+http://clojureto.github.io/posts/2019-05-13-clojure-books-library
+</link>
+<title>
+Clojure Books in the Toronto Public Library
+</title>
+<description>
+&lt;p&gt;5 years ago I failed to write a book. I wrote it until chapter 3 but I couldn't stand all the criticism coming from the editor and the reviewers. As the deadline to deliver chapter 4 was approaching, I was still overwhelmed by all the work to catch up with their feedback. So, I quit, but I learned something very important from that experience: the scrutiny over the writing of books makes them very good references.&lt;/p&gt;&lt;p&gt;It's true that the time required to write and publish a book is incompatible with the rapid pace Information Technology evolves, making it quickly obsolete. However, Clojure is well known for its long term stability and backward compatibility. Clojure books have a very slow obsolescence and they are worth buying.&lt;/p&gt;&lt;p&gt;Most Clojure programmers I know, including myself, love to own Clojure books, but beginners may find interesting to have access to some books for free, before starting a new &lt;a href='https://clojure.org/community/books'&gt;book collection&lt;/a&gt;. The &lt;a href='https://www.torontopubliclibrary.ca'&gt;Toronto Public Library&lt;/a&gt; is there to help.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/toronto-reference-library.jpg&quot; alt=&quot;(By Raysonho @ Open Grid Scheduler / Grid Engine - Own work, CC0, https://commons.wikimedia.org/w/index.php?curid=12312088)&quot; /&gt;&lt;/p&gt;&lt;p&gt;I don't know about other public libraries out there, but the Toronto Public Library is a model to follow. There is a central reference library where books are for your-eyes-only and dozen other &lt;a href='https://www.torontopubliclibrary.ca/branches/'&gt;branches&lt;/a&gt; all over the city, each one adapted to the needs of the neighborhood. They offer not only books, but also e-books, audio-books, magazines, seminars, courses, all sort of multimedia material, image/video editing and 3D printing. When you subscribe, you gain access to all these services, most of them for free, with a &lt;a href='https://www.torontopubliclibrary.ca/using-the-library/your-library-card/'&gt;library card&lt;/a&gt; that you can also use online to borrow books delivered to a branch near you.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/toronto-library-joy-clojure.jpg&quot; alt=&quot;Spotting The Joy of Clojure&quot; /&gt;&lt;/p&gt;&lt;p&gt;This is a list of Clojure books you can borrow and keep for 21 days and renew them two times for the same length of time, making a total of 63 days!&lt;/p&gt;&lt;ul&gt;&lt;li&gt;2018&lt;ul&gt;&lt;li&gt;&lt;a href='https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDM3729085&amp;R=3729085'&gt;Getting Clojure&lt;/a&gt; by Russ Olsen&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDM3697897&amp;R=3697897'&gt;Programming Clojure&lt;/a&gt; by Alex Miller&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;2016&lt;ul&gt;&lt;li&gt;&lt;a href='https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDM3412086&amp;R=3412086'&gt;Professional Clojure&lt;/a&gt; by Jeremy Anderson&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDM3395355&amp;R=3395355'&gt;Clojure in Action&lt;/a&gt; by Amit Rathore&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;2015&lt;ul&gt;&lt;li&gt;&lt;a href='https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDM3347529&amp;R=3347529'&gt;Living Clojure&lt;/a&gt; by Carin Meier&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;2014&lt;ul&gt;&lt;li&gt;&lt;a href='https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDM3182884&amp;R=3182884'&gt;The Joy of Clojure&lt;/a&gt; by Michael Fogus&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;It is also possible to put your hands on books about other LISP languages:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDM3084230&amp;R=3084230'&gt;Practical COMMON LISP&lt;/a&gt; by Peter Seibel&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDM2656949&amp;R=2656949'&gt;The Scheme Programming Language&lt;/a&gt; by R. Kent Dybvig&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;img src=&quot;/img/toronto-library-common-lisp.jpg&quot; alt=&quot;Spotting Practical COMMON LISP&quot; /&gt;&lt;/p&gt;&lt;p&gt;Even when some books aren't physically available, they can be accessed online thanks to a partnership with Safari Books Online. I would highlight:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDM3475911&amp;R=3475911'&gt;Web Development with Clojure&lt;/a&gt; by Dmitri Sotnikov, a co-organizer of the ClojureTO Community.&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDM3364211&amp;R=3364211'&gt;Clojure for the Brave and True&lt;/a&gt; by Daniel Higginbothan&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Clojure is probably the most popular programming language among the functional ones. It is good to see that it is also accessible to everyone living in Toronto. When you borrow one of these books to learn it you're going to fill a spark that will change the way you think about programming forever. It will be the beginning of your own Clojure book collection.&lt;/p&gt;
+</description>
+<author>
+Hildeberto Mendonca
+</author>
+<pubDate>
+Mon, 13 May 2019 00:00:00 +0000
+</pubDate>
+</item>
 <item>
 <guid>
 http://clojureto.github.io/posts/2019-03-12-clojure-north
